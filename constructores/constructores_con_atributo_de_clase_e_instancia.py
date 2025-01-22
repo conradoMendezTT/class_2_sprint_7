@@ -6,12 +6,15 @@ class User:
         self.name = name
         self.login_user = login_user
 
-# Crear objetos con valores únicos
-user_1 = User("Mark", "mark@gmail.com")
-user_2 = User("Alice", "alice@gmail.com")
-user_3 = User("Bob", "bob@gmail.com")
+    def describe(self):
+        print(f"user_1: name={self.name}, login_user= {self.login_user}, is_registered={User.is_registered}\n")
 
-# Imprimir los atributos de cada objeto (con referencia directa a la clase para is_registered)
-print(f"user_1: name={user_1.name}, login_user={user_1.login_user}, is_registered={User.is_registered}\n")
-print(f"user_2: name={user_2.name}, login_user={user_2.login_user}, is_registered={User.is_registered}\n")
-print(f"user_3: name={user_3.name}, login_user={user_3.login_user}, is_registered={User.is_registered}\n")
+# Crear objetos con valores únicos
+user_1 = User("Conrado", "mark@gmail.com")
+user_2 = User("Cohorte", "alice@gmail.com")
+user_3 = User("20", "bob@gmail.com")
+
+# Imprimimos los atribtuos de cada objeto con un metodo
+user_1.describe()
+user_2.describe()
+user_3.describe()
