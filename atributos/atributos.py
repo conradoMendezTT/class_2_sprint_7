@@ -6,13 +6,13 @@ class User():
 
 print(f"Registrado --- {User.is_registered}")
 print(f"Nombre del usuario --- {User.name}")
-print(f"Email de usuario --- {User.login_user}")
+print(f"Email de usuario --- {User.login_user}\n")
 
 #Cambio algun atributo
 User.name = "Conrado"
 
 #Imprimo lo mismo que arriba
-print("CAMBIANDO LOS ATRIBUTOS")
+print("CAMBIANDO LOS ATRIBUTOS\n")
 
 print(f"Registrado --- {User.is_registered}")
 print(f"Nombre del usuario --- {User.name}")
