@@ -10,6 +10,7 @@ print(f"Email de usuario --- {User.login_user}\n")
 
 #Cambio algun atributo
 User.name = "Conrado"
+User.is_registered = False
 
 #Imprimo lo mismo que arriba
 print("CAMBIANDO LOS ATRIBUTOS\n")

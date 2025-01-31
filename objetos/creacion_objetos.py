@@ -7,6 +7,7 @@ class User():
 user_1 = User()
 user_2 = User()
 user_3 = User()
+user_4 = User()
 
 #Imprimiendo objetos
 print(user_3)
