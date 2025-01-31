@@ -13,8 +13,11 @@ class User:
 user_1 = User("Conrado", "mark@gmail.com")
 user_2 = User("Cohorte", "alice@gmail.com")
 user_3 = User("20", "bob@gmail.com")
-
+user_4 = User("20", "bob@gmail.com")
 # Imprimimos los atribtuos de cada objeto con un metodo
 user_1.describe()
 user_2.describe()
 user_3.describe()
+user_4.describe()
+
+
